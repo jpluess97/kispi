@@ -1,0 +1,15 @@
+# CONFIGURATION FILE FOR TESTING
+
+# test image directories
+test_imgs: /media/m-ssd2/jaye/fetal_lung_segmentation/nnUnet/nnUNet_raw_data_base/nnUNet_raw_data/Task601_lung/imagesTs_s/*.nii.gz
+test_segs: //media/m-ssd2/jaye/fetal_lung_segmentation/nnUnet/nnUNet_raw_data_base/nnUNet_raw_data/Task601_lung/labelsTs_s/*.nii.gz
+# saved model path
+saved_model_path: /media/m-ssd2/jaye/fetal_lung_segmentation/Code/3d_UNet/3d_model/saved_models_uncertainty/3d_model_200E.model
+# image dimensions
+height: 128
+width: 128
+depth: 128
+# label for prediction
+label: 1
+
+prediction_path: /media/m-ssd2/jaye/fetal_lung_segmentation/Code/3d_UNet/3d_model/comparision_tryouts/
